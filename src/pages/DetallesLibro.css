@@ -1,0 +1,57 @@
+.detalles-libro {
+  display: flex;
+  padding: 20px;
+}
+
+.detalles-libro__imagen {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.detalles-libro__info {
+  flex: 1;
+}
+
+.detalles-libro__info h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.detalles-libro__info p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.detalles-libro__info button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detalles-libro__info button:hover {
+  background-color: #0056b3;
+}
+
+.detalles-libro__cantidad {
+  width: 50px;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+}
+.detalles-libro__volver {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #065806;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detalles-libro__volver:hover {
+  background-color: #0f9c66;
+}

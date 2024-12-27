@@ -1,0 +1,25 @@
+.pagina-principal {
+  padding: 20px;
+}
+
+.pagina-principal__busqueda {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pagina-principal__lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pagina-principal__mensaje {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+.banner {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .banner__slide {
+    text-align: center;
+  }
+  
+  .banner__imagen {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .banner__titulo {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }

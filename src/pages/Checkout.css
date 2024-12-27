@@ -1,0 +1,41 @@
+.checkout {
+    padding: 20px;
+  }
+  
+  .checkout h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .checkout__libro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .checkout__libro p {
+    margin: 0;
+  }
+  
+  .checkout__total {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: right;
+  }
+  
+  .checkout__pago {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout__pago:hover {
+    background-color: #218838;
+  }

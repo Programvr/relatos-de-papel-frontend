@@ -1,0 +1,84 @@
+.carrito {
+    padding: 20px;
+  }
+  
+  .carrito h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .carrito__libro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .carrito__libro p {
+    margin: 0;
+  }
+  
+  .carrito__libro button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carrito__libro button:hover {
+    background-color: #c82333;
+  }
+  
+  .carrito__total {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: right;
+  }
+  
+  .carrito__vaciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carrito__vaciar:hover {
+    background-color: #e0a800;
+  }
+  
+  .carrito__checkout {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carrito__checkout:hover {
+    background-color: #0056b3;
+  }
+
+  .carrito__volver {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #065806;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carrito__volver:hover {
+    background-color: #0f9c66;
+  }

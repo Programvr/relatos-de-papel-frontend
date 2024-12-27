@@ -1,0 +1,32 @@
+.libro {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: center; /* Centrar el contenido */
+}
+
+.libro__imagen {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.libro__titulo {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  display: block; /* Asegurar que el enlace sea un bloque */
+}
+
+.libro__titulo:hover {
+  color: #007bff;
+}
+
+.libro__precio {
+  margin-top: 10px;
+}
